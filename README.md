@@ -5,7 +5,7 @@
 
 ![1595921491148](C:\Users\王彪\AppData\Roaming\Typora\typora-user-images\1595921491148.png)
 
-星级的展示
+星级的展示，需要用到static中的图片
 
 ```html
 <star num="3" size="30" comment="{{true}}" bind:star="myEvent"></star>
