@@ -42,3 +42,33 @@ methods:{
   }
 ```
 
+# 2.search
+
+![1595923983112](C:\Users\王彪\AppData\Roaming\Typora\typora-user-images\1595923983112.png)
+
+搜索框，可更换背景颜色
+
+```html
+<search-bar bind:mysearchbar="myEvent"></search-bar>
+```
+
+```js
+properties:{
+    // input's placeholder
+    placeholder:{
+      type: String,
+      value:"搜索"
+    },
+    // cover's plaeholder
+    coverholder:{
+      type: String,
+      value:"搜索"
+    },
+    // theme background-color
+    theme:{
+      type:String,
+      value:'#f5f5f5'
+    }
+  },
+```
+
